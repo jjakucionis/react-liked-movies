@@ -14,6 +14,7 @@ class UserList extends Component {
     }
 
     const listofItems = usersWhoLikedMovie.map(id => (
+      
       <li key={id}>
         <p>{users[id].name}</p>
       </li>
